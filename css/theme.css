@@ -1,0 +1,515 @@
+/***********************
+	   Fonts
+***********************/
+@font-face {
+  font-family: 'georgiaBold';
+  src: url('../fonts/georgia bold.ttf');
+}
+h5, p {
+	font-family: 'Raleway', sans-serif;
+}
+h5 {
+	font-weight: bold;
+}
+/***********************
+	   General
+***********************/
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.bodyMarginTop {
+	margin-top: 50px;
+}
+textarea {
+    resize: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.titles {
+	font-family: 'Playfair Display', serif; 
+	text-transform: uppercase;
+	color: #595959;
+	font-size: 20px;
+}
+.navbar-header a{
+	color: #FFFFFF !important;
+}
+.navbar-collapse a {
+	color: #FFFFFF !important;
+	border-bottom: 3px solid;
+	border-color: #101010;
+}
+.navbar-header a:hover{
+	color: #595959 !important;
+}
+.navbar-collapse a:hover {
+	cursor: pointer;
+	border-bottom: 3px solid;
+	border-color: #ca3e42;
+} 
+.redLine {
+	width: 50px;
+	margin: 0 auto;
+	border: 1px solid;
+	border-color: #ca3e42;
+}
+.row {
+	margin: 0;
+	padding: 0;
+}
+.navbar-inverse,
+.navbar-collapse,
+.navbar-inverse,
+.navbar-form {
+	border-radius: 0;
+}
+.navbar-inverse {
+	background: #000000;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar-brand {
+	font-size: 35px;
+	padding-left: 40px;
+	font-family: 'georgiaBold', 'Georgia', serif; 
+}
+.buttonContranovaContenedor {
+	width: 173px;
+	height: 47px;
+	margin: 0 auto;
+}
+.buttonContranova {
+	background: #d37b7d;
+	border-radius: 0;
+	color: #FFFFFF;
+	border: hidden;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+/***********************
+	   header
+***********************/
+.header {
+	width: 100%;
+	height: 800px;
+	background: url(../img/header.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.headerContent {
+	margin-top: 20%;
+}
+.header img {
+	width: 100%;
+}
+.navbar-right {
+	padding-right: 38px;
+	text-transform: uppercase;
+}
+.headerText{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+.headerTextCenter{
+	color: #FFFFFF;
+	font-family: 'georgiaBold', 'Georgia', serif; 
+	font-size: 90px;
+	text-shadow: 3px 3px #000000;
+}
+.headerTextBotton{
+	color: #FFFFFF;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 2px 2px #000000;
+}
+.whiteLine {
+	width: 90px;
+	margin: 0 auto;
+	border: 2px solid;
+	border-color: #FFFFFF;
+}
+
+/***********************
+	Quienes somos
+***********************/
+.navBarMarginTop {
+	transition: all 0.9s ease;
+	padding-top: 65px;
+}
+.quienesSomos img{
+	width: 100%;
+}
+.quienesSomosImg {
+	margin-bottom: 15px;
+}
+
+
+/***********************
+		Galeria
+***********************/
+.smallScreen {
+	display: none;
+}
+.whiteLineGaleria {
+	width: 150px;
+	margin: 0 auto;
+	border: 2px solid;
+	border-color: #FFFFFF;
+}
+.galeriaText {
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+}
+.galeriaCuadroAncho {
+	width: 100%;
+	height: 370px;
+	background: #000000;
+}
+.galeriaCuadroCuadrado {
+	width: 100%;
+	height: 370px;
+	background: #d37b7d;
+}
+.galeriaCuadroLargo {
+	width: 100%;
+	height: 760px;
+	background: #000000;
+}
+.eventoBox {
+	padding-top: 110px;
+	width: 100%;
+	height: 100%;
+}
+.eventoBoxEspecial {
+	padding-top: 310px;
+	width: 100%;
+	height: 100%;
+}
+.evenboxInside {
+	background-image: url("../img/marco_galerias.png");
+	background-size: 100% 100%;
+	width: 220px;
+	height: 95px;
+	margin: 0 auto;
+}
+.evenboxInside h3{
+
+	padding-top: 15px;
+}
+.evenboxInside h4{
+	padding-top: 10px;
+}
+
+
+.evento1 {
+	cursor: pointer;
+	background: url(../img/galeria_edipac.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.evento2 {
+	cursor: pointer;
+	background: url(../img/galeria_club_hipico.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.evento3 {
+	cursor: pointer;
+	background: url(../img/galeria_monica_danilo.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.evento4 {
+	cursor: pointer;
+	background: url(../img/galeria_paulina_rodrigo.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.evento5 {
+	cursor: pointer;
+	background: url(../img/galeria_carolina_cristian.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.evento6 {
+	cursor: pointer;
+	background: url(../img/galeria_loreto_manuel.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+
+/***********************
+	  Repertorio
+***********************/
+.repertorioBloque {
+	width: 100%;
+	height: 710px;
+	padding-top: 20px;
+	color: #FFFFFF;	
+	background: url(../img/repertorio.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.repertorioBloque h5 {
+	text-shadow: 2px 2px #000000;
+}
+
+
+/***********************
+	 Redes sociales
+***********************/
+.facebook {
+	width: 280px;
+	margin: 0 auto;
+}
+.redesSocialesContenedor {
+	min-height: 530px;
+}
+.redesSocialesContenedor img{
+	width: 100%;
+}
+.facebookContenedor {
+	width: 280px;
+	margin: 0 auto;
+}
+..redesSocialesContenedor img {
+	widows: 280px;
+	margin: 0 auto;
+}
+.redesSocialesContenedor img:hover{
+	opacity: .7;
+	cursor: pointer;
+}
+.socialTextIcon {
+	width: 76px;
+	font-size: 35px;
+	color: #FFFFFF;
+	background: #d37b7d;
+	padding: 20px;
+	border-radius: 100%;
+}
+.redesSocialesLink:hover {
+	color: #e0e0e0;
+}
+.redesHide {
+	display: none;
+}
+.redesInherit {
+	display: inherit;
+}
+
+/***********************
+	   Contacto
+***********************/
+.contacto {
+	width: 100%;
+	height: 765px;
+	color: #595957;
+	background: #e6e6e6;
+	background: url(../img/contacto.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.inputContranova {
+	border: 1px solid;
+	border-color: #d47c7e;
+	border-radius: 0;
+	padding: 25px;
+}
+.buttonContranovaContenedorForm {
+	width: 103px;
+	height: 47px;
+	margin: 0 auto;
+}
+.buttonContranovaForm {
+	background: #d37b7d;
+	border-radius: 0;
+	color: #FFFFFF;
+	border: hidden;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.buttonContranova:hover {
+	color: #e0e0e0;
+}
+.screenError {
+	color: #ca3e44;
+}
+/***********************
+	   footer
+***********************/
+.footer h3{
+	font-family: 'georgiaBold', 'Georgia', serif;
+}
+.footer p {
+	color: #a7a7a7;
+} 
+.footer span {
+	color: #a7a7a7;
+}
+.footer span:hover {
+	color: #000000;
+	cursor: pointer;
+}
+
+
+.readyImgContenedor {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.readyImg {
+	padding-top: 5%;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+}
+.readyImg img {
+	width: 300px;
+	height: 300px;	
+}
+
+/***********************
+	   Responsive
+************************/
+@media screen and (min-width: 1500px) {
+	.header {
+		height: 1150px;
+	}
+}
+@media screen and (max-width: 1040px) {
+	/*Header comprimir antes*/
+	.navbar-header {
+		float: none;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-collapse.collapse.in{
+		display:block !important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.navbar-brand {
+		font-size: 23px;
+	}
+	.navbar-inverse {
+		font-size: 12px;
+	}
+	.headerText{
+		font-size: 16px;
+	}
+	.headerTextCenter{
+		font-size: 50px;
+	}
+	.headerTextBotton{
+		font-size: 18px;
+	}
+	.header {
+		height: 550px;
+	}
+	.largeScreen {
+		display: none;
+	}
+	.smallScreen {
+		display: inherit;
+	}
+	.contacto {
+		height: 765px;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.header {
+		height: 400px;
+	}
+	.headerContent {
+		margin-top: 15%;
+	}
+	.headerText{
+		font-size: 14px;
+	}
+	.headerTextCenter{
+		font-size: 40px;
+	}
+	.headerTextBotton{
+		font-size: 14px;
+	}
+	.formUnoPorMedio {
+		margin-bottom: 15px;
+	}
+	.contacto {
+		height: 1050px;
+	}
+	.redesSocialesContenedor {
+		min-height: 0;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.headerContent {
+		margin-top: 30%;
+	}
+	.repertorioBloque {
+		height: 780px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
